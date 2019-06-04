@@ -1,0 +1,210 @@
+html body{
+	font-family: sans-serif;
+}
+
+/*   Header   */
+
+body header{
+	background: url(../img/fundo-topo.jpg);
+	background-repeat: no-repeat;
+	color: white;
+	background-size: 100vw 40vw;
+}
+
+body header div{
+	padding: 3vw 0 0 8vw;
+	display: flex;
+}
+
+body header ul{
+	display: flex;
+}
+
+body header div h2{
+	font-size: 2vw;
+}
+
+body header div ul{
+	font-size: 1vw;
+	margin: 0.5vw 0 0 43vw;
+}
+
+body header div ul li{
+	margin-right: 2vw; 
+}
+
+body header div ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+body header h1{
+	margin-top: 10vw; 
+	font-size: 3vw;
+	width: 38vw;
+	text-align: center;
+	margin-left: 31vw;
+	font-weight: bold;
+	border-bottom:  4px solid;
+	border-color:  #37C2FD;
+	padding-bottom: 3vw;
+}
+
+
+body header p{
+	text-align: center;
+	font-size: 1.5vw;
+	width: 38vw;
+	margin-left: 31vw;
+	padding-bottom: 15vw;
+	margin-top: 3vw;
+}
+
+/*  End Header   */
+
+/*   Core Services   */
+
+body section#sec1{
+	text-align: center;
+	color: #878787;
+}
+
+body section#sec1 h2{
+	font-size: 2.5vw;
+	font-weight: bold;
+	color: #1A1A1A;
+	padding-bottom: 2vw;
+	border-bottom: 2px solid;
+	border-color:  #37C2FD;
+	display: inline-block;
+}
+
+
+body section#sec1 ul{
+	display: flex;
+	margin-top: 6vw;
+	width: 74vw;
+	margin-left: 17.3vw;
+	margin-bottom: 10vw;
+}
+
+body section#sec1 ul li{
+	width: 20vw;
+	margin-right: 8vw;
+}
+
+body section#sec1 ul li h3{
+	color: #1A1A1A;
+	font-weight: bold;
+	margin: 2vw 0 1vw 0;
+}
+
+/*   End Core Services   */
+
+/*   Portfólio   */
+
+body section#sec2{
+	color: #878787;
+	text-align: center;
+}
+
+body section#sec2 h2{
+	color: #1A1A1A;
+	font-size: 2.5vw;
+	font-weight: bold;
+	margin-bottom: 2vw;
+}
+
+body section#sec2 p{
+	width: 38vw;
+	text-align: center;
+	margin-bottom: 2vw;
+	display: inline-block;
+}
+
+body section#sec2 ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 4vw;
+}
+
+
+/*  End Portfólio   */
+
+/*   Awesome   */
+	
+body section#sec3{
+	color: #878787;
+	text-align: center;
+}
+
+body section#sec3 h2{
+	font-size: 2.5vw;
+	font-weight: bold;
+	color: #1A1A1A;
+	padding-bottom: 2vw;
+	border-bottom: 2px solid;
+	border-color:  #37C2FD;
+	display: inline-block;
+	margin-bottom: 6vw;
+}
+
+body section#sec3 ul{
+	display: flex;
+	justify-content: center;
+}
+
+body section#sec3 ul#maior li.maior{
+	margin-right: 3vw;
+	margin-left: 3vw;
+}
+
+body section#sec3 ul#maior li.maior img{
+	border-radius: 10vw;
+}
+
+body section#sec3 ul#maior li.maior h3{
+	font-size: 1.3vw;
+	color: #1A1A1A;
+	margin-top: 1vw;
+	margin-bottom: 0.5vw;
+}
+
+body section#sec3 ul#maior li.maior p{
+	margin-bottom: 0.8vw;
+}
+
+body section#sec3 ul#maior li.maior ul li{
+	margin-right: 0.2vw;
+	margin-left: 0.2vw;
+}
+
+body section#sec3 ul#maior{
+	margin-bottom: 15vw;
+}
+
+/*  End Awesome  */
+
+
+/*   Footer  */
+
+body footer{
+	background: #111111;
+	text-align: center;
+}
+
+body footer hr{
+	margin-top: 3vw;
+	border: none;
+	background: white;
+	width: 65vw;
+	height: 1px;
+	display: inline-block;
+}
+
+body footer p{
+	color: white;
+	padding: 2vw 0 2vw 0;
+}
+
+/*  End Footer  */
