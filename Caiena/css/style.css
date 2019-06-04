@@ -1,0 +1,195 @@
+html body{
+	font-family: "trebuchet MS"
+}
+
+
+/*==== HEADER ====*/
+
+html body header {
+	background: #F7FCFF;
+	display: flex;
+	color: grey;
+	padding: 1.8vw 0vw 0vw 0vw;
+}
+
+body header h1{
+	justify-content: flex-start;
+	margin: -0.5vw 0 1vw 17vw;
+	font-size: 2vw
+}
+
+body header ul{
+	display: flex;
+	margin: 2vw 0 1vw 36vw;
+}
+
+body header ul li{
+	margin: -2vw 0vw 0vw 0vw;
+}
+
+body header ul li a{
+	margin: 0px 10px 0px 5px;
+	padding: 0px 10px 0px 10px;
+	font-size: 1vw;
+	text-decoration: none;
+	color: grey;
+}
+
+body header ul li#sign a{
+	margin: -15px 10px 0px 10px;
+	padding: 12px 40px 12px 40px;
+	border-radius: 30px;
+	background: #0EC0DE;
+	color: white;
+}
+
+/*==== Our Mission ====*/
+
+body section#our{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url("../img/foto_banner.jpg") no-repeat;
+	width: 98.7vw;
+	height: 44vw;
+	padding: 0px;
+	background-size: contain;
+	color: white;
+}
+
+body section#our h1{
+	margin: 0vw 0vw 0vw 37vw;
+	font-size: 3.5vw;
+	width: 25vw;
+	text-align: center;
+	padding: 26vw 0vw 2vw 0vw;
+}
+
+body section#our p{
+	font-size: 1.5vw;
+	width: 60vw;
+	text-align: center;
+	margin: 0vw 0vw 0vw 18vw;
+}
+
+/*==== About ====*/
+
+body section#about{
+	background: white;
+	margin: -2.8vw 0vw 0vw 0vw;
+	padding: 10vw 0vw 5vw 0vw;
+}
+
+body section#about h2{
+	color: #0EC0DE;
+	text-align: center;
+	font-size: 3vw;
+	margin: -6vw 0vw 1.5vw 0vw;
+}
+
+body section#about p{
+	color: grey;
+	text-align: center;
+	font-size: 1.5vw;
+	width: 60vw;
+	margin: 0vw 0vw 0vw 20vw;
+}
+
+/*==== Team ====*/
+
+body section#team{
+	background: #0EC0DE;
+	padding: 0vw 0vw 5vw 0vw;
+}
+
+body section#team h2{
+	color: white;
+	text-align: center;
+	font-size: 3vw;
+	padding: 3vw 0vw 5vw 0vw;
+}
+
+body section#team ul{
+	display: flex;
+	padding: 0vw 0vw 8vw 24.5vw;
+}
+
+body section#team ul li{
+	text-align: center;
+	padding: 0vw 2.5vw 0vw 2.5vw;
+	color: white;
+}
+
+body section#team ul li h3{
+	font-weight: bold;
+}
+
+
+body section#team ul li img{
+	border-radius: 200px;
+}
+
+body section#team a{
+	padding: 12px 40px 12px 40px;
+	border-radius: 30px;
+	background: #0EC0DE;
+	color: white;
+	margin: 0vw 0vw 0vw 43vw;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	text-decoration: none;
+}
+
+/*==== Map ====*/
+
+body section#map{
+	background: url("../img/mapa.jpg") no-repeat;
+	padding: 44vw 0vw 0vw 0vw;
+}
+
+/*==== footer ====*/
+
+body footer{
+	color: white;
+	background: #454A4E;
+}
+
+body footer ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 0.8vw;
+}
+
+body footer ul#ff{
+	display: flex;
+}
+
+body footer ul#f2{
+	display: flex;
+	margin: 0vw 0vw 0vw 35vw;
+}
+
+body footer ul#f1{
+	display: flex;
+	margin: 0vw 0vw 0vw 17vw;
+}
+
+
+body footer ul li{
+	padding: 0.5vw 1vw 0.3vw 0.2vw;
+}
+
+body footer ul#f1 li{
+	padding: 1.3vw 1vw 0vw 1vw;
+}
+
+body footer hr{
+	width: 62vw;
+	opacity: 0.2;
+}
+
+body footer p{
+	font-size: 0.8vw;
+	padding: 0.3vw 0vw 1vw 58vw;
+	opacity: 0.2;
+}
+
+
