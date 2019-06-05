@@ -1,0 +1,252 @@
+/*==== HEADER ====*/
+
+html body header {
+	background: #43443F;
+	display: flex;
+	color: white;
+}
+
+body header h1{
+	justify-content: flex-start;
+	margin: 1.5vw 0 1vw 20vw;
+	font-size: 2vw
+}
+
+body header ul{
+	display: flex;
+	margin: 2vw 0 1vw 34vw;
+}
+
+body header ul li a{
+	margin: 0px 10px 0px 5px;
+	padding: 0px 20px 0px 20px;
+	font-size: 0.8vw;
+	text-decoration: none;
+	color: white;
+}
+
+body header ul li a#sobre{
+	color: grey;
+}
+
+
+
+/*==== Compartilhe ====*/
+
+body section#compartilhe{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url("../img/alpes.jpg") no-repeat;
+	color: white;
+	height: 709px;
+}
+
+body section#compartilhe h1{
+	padding: 18vw 3vw 0vw 3vw;
+	text-align: center;
+	font-size: 2.5vw;
+}
+
+body section#compartilhe p{
+	padding: 1vw 1vw 2vw 1vw;
+	text-align: center;
+	width: 30vw;
+	margin: 0 0 2.5vw 34vw; 
+}
+
+body section#compartilhe a{
+	padding: 1vw 3vw 1vw 3vw;
+	background: #998677;
+	text-decoration: none;
+	color: white;
+	margin: 0 0 0 44vw;
+	font-size: 1vw;
+	border-radius: 4px;
+}
+
+
+/*==== Section 2 ====*/
+
+body section#sec2{
+	background: white;
+	color: grey;
+}
+
+body section#sec2 ul{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 4vw 0 0 0;
+}
+
+body section#sec2 ul li{
+	width: 15vw;
+	padding: 0vw 3vw 0vw 0vw;
+}
+
+body section#sec2 ul li h2{
+	padding: 1vw;
+	font-weight: bold;
+	font-size: 1.2vw;
+}
+
+body section#sec2 ul li p{
+	width: 15.9vw;
+	margin: 0 0 10vw 0;
+}
+
+body section#sec2 ul li img{
+	width: 48px;
+	height: 47px;
+}
+
+body section#sec2 ul li h2#plataformas{
+	color: #998677;
+}
+
+/*==== Section 3 ====*/
+
+body section#sec3 div#tc{
+	display: flex;
+	margin: 3vw 0vw 0.5vw 12vw;
+	font-size: 1.5vw;
+}
+
+body section#sec3{
+	display: flex;
+	background: linear-gradient(to right, #221A18, #4E3328);
+}
+
+body section#sec3 div#tc h2{
+	color: white;
+}
+
+body section#sec3 div#tc h2#teleyosec3{
+	color: #928574;
+	margin-right: 0.5vw;
+}
+
+body section#sec3 p{
+	margin-left: 12vw;
+	margin-bottom: 3vw;
+	color: #928574;
+	opacity: 0.4;
+}
+
+body section#sec3 div a{
+	display: inline-block;
+	margin: 3vw 0 0 40vw;
+	background: #998677;
+	font-size: 1.2vw;
+	padding: 0.8vw 2vw 0.8vw 2vw;
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+/*==== Section 4 ====*/
+
+body section#sec4{
+	text-align: center;
+}
+
+body section#sec4 h2{
+	color: grey;
+	font-size: 1.8vw;
+	font-weight: bold;
+	margin: 6vw 0 2vw 0;
+}
+
+body section#sec4 p#nunca{
+	color: grey;
+	text-align: center;
+	width: 56vw;
+	margin: 0vw 0 3vw 0;
+	display: inline-block;
+}
+
+body section#sec4 ul#a{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 3vw;
+}
+
+body section#sec4 ul#a a{
+	border: 1px solid;
+	border-color: grey;
+	width: 8vw;
+	padding: 0.3vw 0 0.3vw 0;
+	display: inline-block;
+	text-decoration: none;
+	color: grey;
+	border-radius: 3px;
+	margin-right: 1vw;
+}
+
+body section#sec4 ul#a a#todos{
+	width: 4.5vw;
+	background: #998677;
+	color: white;
+}
+
+body section#sec4 ul.imgs{
+	display: flex;
+	justify-content: center;
+}
+
+body section#sec4 ul.imgs li{
+	background: #FBFAF8;
+	margin: 1vw;
+	text-align: left;
+	padding-bottom: 1vw;
+}
+
+body section#sec4 ul.imgs li h3{
+	font-size: 1.5vw;
+	margin: 0 0 0 1vw;
+	color: #998677;
+	margin-bottom: 0.7vw;
+}
+
+body section#sec4 ul.imgs li p{
+	margin: 0 0 0 1vw;
+	color: grey;
+	opacity: 0.6;
+}
+
+body section#sec4 ul.imgs li#montanha{
+	background: #372F2D;
+}
+
+body section#sec4 ul.imgs li#montanha h3{
+	color: white;
+}
+
+body section#sec4 ul.imgs li#montanha p{
+	color: #998677;
+}
+
+body section#sec4 a#carregar{
+	color: white;
+	text-decoration: none;
+	padding: 1vw;
+	background: #998677;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 2vw 0 4vw 0;
+}
+
+/*==== Section 4 ====*/
+
+body footer{
+	background: black;
+	color: grey;
+	display: flex;
+}
+
+body footer p{
+	margin: 2vw 0vw 2vw 6.5vw;
+	font-size: 1vw;
+}
+
+body footer p#end{
+	margin: 2vw 0vw 2vw 48vw;
+}
