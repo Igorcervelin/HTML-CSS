@@ -1,0 +1,206 @@
+html body{
+	font-family: sans-serif;
+}
+
+body header{
+	background: #303030;
+	display: flex;
+}
+
+body header h1{
+	color: white;
+	font-size: 2.2vw;
+	padding: 2vw 0 0 10vw;
+}
+
+body header ul{
+	display: flex;
+	padding: 2.5vw 1vw 2vw 35vw;
+}
+
+body header ul li a{
+	padding: 0 2vw 0 0;
+	text-decoration: none;
+	color: white;
+	font-size: 1vw;
+}
+
+body header div nav ul li.home{
+	border-bottom: #786C61 5px solid;
+}
+
+body #download{
+	background-image: url(../img/fundo-topo.jpg);
+	padding: 0 0 15vw 0;
+	color: white;
+	font-size: 1.5vw;
+}
+
+body #download div{
+	display: flex;
+	padding: 1vw 0 0 20vw;
+	font-size: 3.5vw;
+}
+
+body #download #grab{
+	padding: 10vw 0 0 20vw;
+}
+
+body #download div p{
+	padding-right: 1vw;
+}
+
+body #download div p.premium{
+	color: #7D6C65;
+}
+
+body #download button{
+	margin: 5vw 0 0 20vw;
+	padding: 1vw 5vw 1vw 5vw;
+	background: #282520;
+	border-color: #282520;
+	font-size: 1.3vw;
+	color: white;
+	border-radius: 5px;
+}
+
+body #team{
+	padding-bottom: 3vw;
+}
+
+body #team h2{
+ 	text-align: center;
+ 	font-size: 2.2vw;
+ 	color: #786C61;
+ 	padding: 5vw 0 2vw 0;	
+ 	margin: 0 37vw 0 37vw;
+ 	border-bottom: 5px solid;
+
+}
+
+body #team div{
+	text-align: center;
+	padding: 1vw 0 0 0;
+}
+
+body #team div p{
+	padding-top: 1vw;
+	color: #707070;
+	word-spacing: 2.5px;
+	line-height: 1.8vw;
+}
+
+body #team ul{
+	display: flex;
+	text-align: center;
+	padding: 3vw 0 1vw 10vw;
+}
+
+body #team ul li{
+	padding: 0 1vw 0 0;
+}
+
+body #team ul li h3{ 
+	margin-top: 1vw;
+	padding-top: 1vw;
+	font-size: 1.5vw;
+	border: #DFDFDF 2px solid;
+	border-bottom: white;
+}
+
+body #team ul li p{ 
+	padding-top: 0.5vw;
+	border: #DFDFDF 2px solid;
+	border-top: white;
+	padding-bottom: 1vw;
+	word-spacing: 2.5px;
+}
+
+body #team ul #semborda h3{
+	border: white;
+}
+
+body #team ul #semborda p{
+	border: white;
+}
+
+body #gallery{
+ 	background: #1A1A1A;
+ 	padding-bottom: 3vw;
+}
+
+body #gallery h2{
+	color: white;
+	font-size: 1.5vw;
+	text-align: center;
+	padding-top: 10vw;
+}
+
+body #gallery p{
+	text-align: center;
+	color: white;
+	padding-top: 0.8vw;
+	padding-bottom: 5vw;
+	word-spacing: 2.5px;
+	line-height: 1.8vw;
+}
+
+body #gallery ul{
+	display: flex;
+	padding-bottom: 3vw;
+}
+
+body #gallery button{
+	text-align: center;
+	background: #1A1A1A;
+	border-color: white;
+	color: white;
+	font-size: 1vw;
+	padding: 1vw 3vw 1vw 3vw;
+	border-radius: 7px;
+	margin: 0 0 0 44vw;
+}
+
+body #services h2{
+ 	text-align: center;
+ 	font-size: 2.2vw;
+ 	color: #786C61;
+ 	padding: 5vw 0 0 0;	
+}
+
+ body #services #p{
+ 	text-align: center;
+	padding: 1vw 20vw 1vw 20vw;
+	color: black;
+	word-spacing: 2.5px;
+	line-height: 1.8vw;
+ }
+
+ body #services ul{
+ 	display: flex;
+ 	text-align: center;
+ 	padding-top: 3vw;
+ 	padding-bottom: 3vw;
+ 	margin: 0 15vw 0 15vw;
+ }
+
+ body #services ul h3{
+ 	font-size: 1.2vw;
+ 	padding: 1.5vw 0 1vw 0;
+ 	color: black;
+
+ }
+
+  body #services ul li p{
+  	padding: 1vw 1vw 1vw 1vw;
+  	line-height: 1.8vw;
+  	color: #D4D4D4;
+
+ }
+
+body footer{
+	background: #1C1C1C;
+	color: grey;
+	text-align: center;
+	padding: 1vw 0 1vw 0;
+}
