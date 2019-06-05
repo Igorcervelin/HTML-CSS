@@ -1,0 +1,209 @@
+html body{
+	font-family: sans-serif;
+	color: #626262;
+}
+
+
+
+
+body header{
+	display: flex;
+}
+
+body header h1{
+	font-size: 2.3vw;
+	margin: 2vw 0 2vw 15vw;
+	font-weight: bold;
+	color: black;
+}
+
+body header ul{
+	display: flex;
+	margin: 2.8vw 0 2vw 35vw; 
+}
+
+body header ul li{
+	padding: 0 1vw 0 1vw;
+	border-right: 1px solid;
+	border-color: grey;
+	font-size: 1vw;
+	height: 1vw;
+}
+
+body header ul li#contact{
+	border-color: white;
+}
+
+body header ul li a{
+	text-decoration: none;
+	color: grey;
+}
+
+body header ul li a#service{
+	color: #58C0FF;
+}
+
+
+
+
+
+body section#sec1{
+	background: linear-gradient(to bottom, #7B7D84, #393A41);
+}
+
+body section#sec1 h2{
+	text-align: center;
+	font-size: 3vw;
+	color: white;
+	padding: 4vw 0 0 0;
+	margin: 3vw 0 5vw 0;
+}
+
+body section#sec1 img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.5vw;
+}
+
+
+
+
+
+body section#sec2{
+
+}
+
+body section#sec2 ul{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+body section#sec2 ul li{
+	width: 22vw;
+}
+
+body section#sec2 ul li h3{
+	font-size: 1.8vw;
+	padding: 5vw 0 1vw 0;
+}
+
+body section#sec2 ul li p{
+	padding: 1vw 0 1vw 0;
+	line-height: 150%;
+}
+
+body section#sec2 ul li a{
+	color: #00AEFF;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	padding: 0 0 3vw 0;
+}
+
+
+
+
+body section#sec3{
+	background: #E2E7ED;
+}
+
+body section#sec3 h3{
+	font-size: 1.8vw;
+	padding: 4vw 0 1vw 15vw;
+}
+
+body section#sec3 ul{
+	display: flex;
+	justify-content: center;
+}
+
+body section#sec3 ul#fimimg{
+	padding-bottom: 5vw;
+}
+
+
+
+
+
+body section#sec4 div{
+	display: flex;
+	padding-left: 15vw;
+	width: 70vw;
+}
+
+body section#sec4 h3{
+	padding: 3vw 0 3vw 15vw;
+	font-size: 1.8vw;
+}
+
+body section#sec4 div ul{
+	display: flex;
+	padding-bottom: 5vw;
+}
+
+body section#sec4 div ul li{
+	padding-right: 6vw;
+}
+
+body section#sec4 div a{
+	color: white;
+	background: #00AEFF;
+	width: 9vw;
+	height: 2vw;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5vw;
+	border-radius: 3px;
+	padding: 1vw 3vw 0.8vw 3vw;
+}
+
+
+
+
+
+
+body footer{
+	background: #31333E;
+	display: flex;
+	color: white;
+}
+
+body footer ul{
+	display: flex;
+}
+
+body footer div{
+	padding: 4vw 0 10vw 14vw; 	
+}
+
+body footer div ul{
+	margin-left: -1vw; 	
+	padding-bottom: 1vw;
+}
+
+body footer div ul li{
+	border-right: 1px solid;
+	border-color: white;
+	padding: 0 1vw 0 1vw;
+}
+
+body footer div ul li#contus{
+	border-color: #31333E;
+}
+
+body footer ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+body footer ul#icones{
+	padding: 4vw 0 10vw 21vw;
+}
+
+body footer ul#icones li{
+	padding-right: 0.5vw;
+}
+
+
